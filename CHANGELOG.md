@@ -1,5 +1,127 @@
 # @primer/css
 
+## 21.5.1
+
+### Patch Changes
+
+- [#2727](https://github.com/primer/css/pull/2727) [`7d4cd40`](https://github.com/primer/css/commit/7d4cd4061a0ffb70355944d33ea49883819da26a) Thanks [@kawakamimoeki](https://github.com/kawakamimoeki)! - Removed .css extension from @import and modified @primer/primitives to be output as Sass code.
+
+- [#2728](https://github.com/primer/css/pull/2728) [`7eaba91`](https://github.com/primer/css/commit/7eaba91768f8e31cf6b0c5538230ce2d04e9bfec) Thanks [@lukasoppermann](https://github.com/lukasoppermann)! - Update primer/primitives to allow for version 9 and 10
+
+- [#2680](https://github.com/primer/css/pull/2680) [`1eb467e`](https://github.com/primer/css/commit/1eb467e9edb3d9ddb84c47bfbf9a21cb9950bf06) Thanks [@robinwhittleton](https://github.com/robinwhittleton)! - Use tabular numbers in tables
+
+## 21.5.0
+
+### Minor Changes
+
+- [#2724](https://github.com/primer/css/pull/2724) [`30d144b`](https://github.com/primer/css/commit/30d144b507d75e5b5ef6d4ec156978acaeb9fad4) Thanks [@camertron](https://github.com/camertron)! - Move prod @primer/\* dependencies to dev
+
+## 21.4.0
+
+### Minor Changes
+
+- [#2691](https://github.com/primer/css/pull/2691) [`5097430`](https://github.com/primer/css/commit/50974300dfe8cf636e1b15b5fbd5b0dc5adf4f2e) Thanks [@dylanatsmith](https://github.com/dylanatsmith)! - Remove background behind images in markdown-body
+
+### Patch Changes
+
+- [#2710](https://github.com/primer/css/pull/2710) [`3017831`](https://github.com/primer/css/commit/30178319550ecbf318ecbfa36675c80b6e95e3ba) Thanks [@smockle](https://github.com/smockle)! - Replace deprecated CSS properties in '.sr-only'
+
+## 21.3.6
+
+### Patch Changes
+
+- [#2624](https://github.com/primer/css/pull/2624) [`7e62532`](https://github.com/primer/css/commit/7e6253292c3de10a1f333cfc4e6e3216e6a53ab8) Thanks [@sideshowbarker](https://github.com/sideshowbarker)! - drop “display: none” from details element contents styling
+
+## 21.3.5
+
+### Patch Changes
+
+- [#2657](https://github.com/primer/css/pull/2657) [`b87c379`](https://github.com/primer/css/commit/b87c3796fbb7b2127c98e3fda086f9f1cfd8bc9b) Thanks [@jonrohan](https://github.com/jonrohan)! - Import `primitives/index.scss` in the main `primer.css` file.
+
+## 21.3.4
+
+### Patch Changes
+
+- [#2651](https://github.com/primer/css/pull/2651) [`e329973`](https://github.com/primer/css/commit/e329973d4d788b8b6d2688a907f88c8458b6db7a) Thanks [@jonrohan](https://github.com/jonrohan)! - Bug fix: Removing complex padding calc on kbd
+
+## 21.3.3
+
+### Patch Changes
+
+- [#2644](https://github.com/primer/css/pull/2644) [`eba2b2c`](https://github.com/primer/css/commit/eba2b2c157efc2e16a7bf36db0882c6f330b7bd4) Thanks [@camertron](https://github.com/camertron)! - Fix 'clac' -> 'calc' typo
+
+## 21.3.2
+
+### Patch Changes
+
+- [#2643](https://github.com/primer/css/pull/2643) [`ab6076c`](https://github.com/primer/css/commit/ab6076c62bac967d5d0c805744e50cc8d73d4171) Thanks [@langermank](https://github.com/langermank)! - Use `control` borders for subnav + disabled button fix
+
+- [#2634](https://github.com/primer/css/pull/2634) [`af3ab76`](https://github.com/primer/css/commit/af3ab76454fd3045315082a14cdc5bdfcabd860a) Thanks [@jonrohan](https://github.com/jonrohan)! - Upgrade to @primer/primtives@8.2.0 and @primer/stylelint-config@13.0.0-rc
+
+## 21.3.1
+
+### Patch Changes
+
+- [#2613](https://github.com/primer/css/pull/2613) [`2eabfde`](https://github.com/primer/css/commit/2eabfdea85667c041e86e13376f1d2823b64fcb1) Thanks [@stamat](https://github.com/stamat)! - removing !important from letter-spacing marketing typography
+
+- [#2611](https://github.com/primer/css/pull/2611) [`e867934`](https://github.com/primer/css/commit/e8679348ca29c85b470a6b04a821d7143d4acf16) Thanks [@keithamus](https://github.com/keithamus)! - drop !important from details styling
+
+## 21.3.0
+
+### Minor Changes
+
+- [#2598](https://github.com/primer/css/pull/2598) [`434fcac`](https://github.com/primer/css/commit/434fcac6c296ddd3155945420f785a6b48eb693c) Thanks [@langermank](https://github.com/langermank)! - Remove marketing icon variables
+
+- [#2596](https://github.com/primer/css/pull/2596) [`9896c79`](https://github.com/primer/css/commit/9896c79a846cbaa633d21573be252b8e4812e79d) Thanks [@jonrohan](https://github.com/jonrohan)! - Move native color styles from the color-modes bundle to the base bundle
+
+### Patch Changes
+
+- [#2606](https://github.com/primer/css/pull/2606) [`a03827b`](https://github.com/primer/css/commit/a03827b0a0c76c6df8d15d04ea2ec7976799cc92) Thanks [@langermank](https://github.com/langermank)! - Cleanup old Primitive imports
+
+## 21.2.2
+
+### Patch Changes
+
+- [#2590](https://github.com/primer/css/pull/2590) [`d75a512`](https://github.com/primer/css/commit/d75a512298f087e49cac1787fd131501cc308f07) Thanks [@langermank](https://github.com/langermank)! - Use legacy shadow for all floating shadows
+
+## 21.2.1
+
+### Patch Changes
+
+- [#2581](https://github.com/primer/css/pull/2581) [`5d8a030`](https://github.com/primer/css/commit/5d8a030319fa64c99f0d3bed85079884d7086474) Thanks [@langermank](https://github.com/langermank)! - Update shadow utils
+
+- [#2588](https://github.com/primer/css/pull/2588) [`7a25839`](https://github.com/primer/css/commit/7a2583942001decfa3d8172833a5f6b55469c56b) Thanks [@langermank](https://github.com/langermank)! - Bump Primitives + fix selectmenu box-shadow
+
+## 21.2.0
+
+### Minor Changes
+
+- [#2532](https://github.com/primer/css/pull/2532) [`51666ea3`](https://github.com/primer/css/commit/51666ea3b4a00239ff60e420782b5b647484b264) Thanks [@langermank](https://github.com/langermank)! - Tooltip visual refresh
+
+### Patch Changes
+
+- [#2566](https://github.com/primer/css/pull/2566) [`407c5676`](https://github.com/primer/css/commit/407c5676d61985d9061adb77ed2de5bfcc0312ec) Thanks [@langermank](https://github.com/langermank)! - Add `monospace` CSS var to global scss var
+
+## 21.1.1
+
+### Patch Changes
+
+- [#2563](https://github.com/primer/css/pull/2563) [`41952457`](https://github.com/primer/css/commit/4195245722defddf9563fe32b0cbe5c9ae5d42d4) Thanks [@langermank](https://github.com/langermank)! - fix backdrop selector
+
+- [#2564](https://github.com/primer/css/pull/2564) [`8757be58`](https://github.com/primer/css/commit/8757be584db2ddda8153566dc1906451832d3833) Thanks [@langermank](https://github.com/langermank)! - Add new color utility classes
+
+## 21.1.0
+
+### Minor Changes
+
+- [#2554](https://github.com/primer/css/pull/2554) [`f0b0d208`](https://github.com/primer/css/commit/f0b0d208cf04cbf77bfc46b40d65d5f53b109aaa) Thanks [@jonrohan](https://github.com/jonrohan)! - Remove primitives css tokens import from support package
+
+## 21.0.10
+
+### Patch Changes
+
+- [#2549](https://github.com/primer/css/pull/2549) [`df764e1a`](https://github.com/primer/css/commit/df764e1a617d13af34d97bd7b4f06b8a478facd2) Thanks [@keithamus](https://github.com/keithamus)! - Fix styles for ::backdrop
+
 ## 21.0.9
 
 ### Patch Changes
